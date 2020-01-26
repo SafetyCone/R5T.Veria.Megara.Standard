@@ -1,0 +1,4 @@
+R5T.Veria.Megara.Standard - The standard aggregation library for an IFileSerializer<T>-based implementation of the IRoundTripFileSerializationVerifier<T> service for the Veria project.
+
+Goals
+
