@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Veria.Megara.Standard.Construction", "R5T.Veria.Megara.Standard.Construction\R5T.Veria.Megara.Standard.Construction.csproj", "{59E00234-E49D-447E-BA4A-A937D9225C04}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Veria.Megara.Standard", "R5T.Veria.Megara.Standard\R5T.Veria.Megara.Standard.csproj", "{F1F40B54-5AA2-4F0B-9B98-8FA9EAD523F8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Veria.Megara.Standard.Testing", "R5T.Veria.Megara.Standard.Testing\R5T.Veria.Megara.Standard.Testing.csproj", "{057F8421-13F2-43FE-AB5A-513E65DC5970}"
@@ -97,18 +95,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{59E00234-E49D-447E-BA4A-A937D9225C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{59E00234-E49D-447E-BA4A-A937D9225C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{59E00234-E49D-447E-BA4A-A937D9225C04}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{59E00234-E49D-447E-BA4A-A937D9225C04}.Debug|x64.Build.0 = Debug|Any CPU
-		{59E00234-E49D-447E-BA4A-A937D9225C04}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{59E00234-E49D-447E-BA4A-A937D9225C04}.Debug|x86.Build.0 = Debug|Any CPU
-		{59E00234-E49D-447E-BA4A-A937D9225C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{59E00234-E49D-447E-BA4A-A937D9225C04}.Release|Any CPU.Build.0 = Release|Any CPU
-		{59E00234-E49D-447E-BA4A-A937D9225C04}.Release|x64.ActiveCfg = Release|Any CPU
-		{59E00234-E49D-447E-BA4A-A937D9225C04}.Release|x64.Build.0 = Release|Any CPU
-		{59E00234-E49D-447E-BA4A-A937D9225C04}.Release|x86.ActiveCfg = Release|Any CPU
-		{59E00234-E49D-447E-BA4A-A937D9225C04}.Release|x86.Build.0 = Release|Any CPU
 		{F1F40B54-5AA2-4F0B-9B98-8FA9EAD523F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F1F40B54-5AA2-4F0B-9B98-8FA9EAD523F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1F40B54-5AA2-4F0B-9B98-8FA9EAD523F8}.Debug|x64.ActiveCfg = Debug|Any CPU
