@@ -1,4 +1,4 @@
 R5T.Veria.Megara.Standard.Construction - A construction console-app for the library R5T.Veria.Megara.Standard.
 
-Goals
+Example is round-trip serialization verification of a Visual Studio solution file.
 
