@@ -3,10 +3,13 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
+using R5T.Cambridge.Types;
 using R5T.Chalandri.DropboxRivetTestingData;
 using R5T.Dacia;
 using R5T.Evosmos.CDriveTemp;
 using R5T.Richmond;
+using R5T.Soludas.Standard;
+using R5T.Solutas.Standard;
 
 
 namespace R5T.Veria.Megara.Standard.Construction
@@ -24,10 +27,11 @@ namespace R5T.Veria.Megara.Standard.Construction
                 .AddSingleton<Program>()
                 .AddTemporaryDirectoryFilePathProvider()
                 .AddTestingDataDirectoryContentPathsProvider()
-                .AddRoundTripFileSerializationVerifier_Text(
+                .AddRoundTripFileSerializationVerifier_Text<SolutionFile>(
                     ServiceAction.AddedElsewhere,
-                    )
-                // Add Visual Studio solution file serializer
+                    ServiceAction.AddedElsewhere)
+                .AddVisualStudioSolutionFileSerializer()
+                .AddVisualStudioSolutionFileValueEqualityComparer()
                 ;
         }
     }
